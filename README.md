@@ -14,3 +14,12 @@ int missingnumber(vector<int>&a, int n)
   int missnumber=sum-s2;
   return missnumber;
 }
+int main()
+{
+  int n=5; 
+  vector<int> a={1,2,4,5};
+  int ans=missingnumber(a,n);
+  cout<<ans<<" ";
+  return 0;
+}
+
